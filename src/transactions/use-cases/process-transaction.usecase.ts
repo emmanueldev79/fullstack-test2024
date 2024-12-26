@@ -64,10 +64,10 @@ export class ProcessTransactionUseCase {
     // 6. Crear una entrega
     const newDelivery = this.deliveryRepository.create({
       transactionId: savedTransaction.id,
-      address: createTransactionDto.shippingAddress,
+      address: savedTransaction.shippingAddress,
       recipientName: createTransactionDto.name, // Personalizar según necesidad
       deliveryDate: new Date().toISOString(),
-      product: createTransactionDto.productName,
+      product: savedTransaction.productName,
       status: 'PENDING',
     });
 
