@@ -22,53 +22,20 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descripcion
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Se realizo la prueba usando al 100% la documentacion, se hizo el frontend con react y algo de redux, css nativo. Se implemento el backend con nestjs y postgre con un typeorm.
+El frontend se desplego en netlify debido a inconenientes con mi cuenta de aws, por otro lado el backend y base de datos se desplegaron alli mismo. A continuacion dejo los links
 
-## Project setup
+link frontend (https://glistening-taiyaki-685840.netlify.app/)
+<a href="https://glistening-taiyaki-685840.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/>Frontend</a>
 
-```bash
-$ npm install
-```
+link gitHub Backend (https://glistening-taiyaki-685840.netlify.app/)
+<a href="https://github.com/emmanueldev79/fullstack-test2024/" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/>Backend</a>
 
-## Compile and run the project
+## Consideraciones
 
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Run tests
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Resources
-
-Check out a few resources that may come in handy when working with NestJS:
-
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+Use la api proporcionada, pero al tokenizar tarjetas en modo sandbox, solo me funcionaban las tarjetas de prueba y las use para poder llevar a cabo las transacciones
 
 ## Support
 
@@ -76,10 +43,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
+- Author - Emmanuel Montoya López
 - Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+Test is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
