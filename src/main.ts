@@ -5,9 +5,9 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors({
-    origin: 'https://reliable-pudding-fd454a.netlify.app/', // Cambia esto al puerto o dominio de tu frontend
+    origin: '*', // Permitir cualquier cliente
     methods: 'GET,POST,PUT,DELETE',
-    credentials: true, // Si necesitas enviar cookies o encabezados de autenticación
+    credentials: false, // Cambiar a true si necesitas enviar cookies o encabezados de autenticación
   });
   await app.listen(3000);
 }
