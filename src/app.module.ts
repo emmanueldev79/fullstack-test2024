@@ -13,11 +13,11 @@ import { Delivery } from './deliveries/deliveries.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: '172.31.14.112',
+      host: 'postgres.railway.internal',
       port: 5432,
       username: 'postgres',
-      password: '12345',
-      database: 'database-1',
+      password: 'MLbOvGLzNkWPrhDKaTuPvNBdqTYyxvXk',
+      database: 'railway',
       entities: [ProductEntity, Transaction, Delivery], // Asegúrate de pasar la entidad correcta aquí
       // synchronize: true, // Esto hará que se sincronicen las entidades con la base de datos
     }),
