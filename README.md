@@ -66,15 +66,29 @@ Por motivos de tiempo, no se realizaron pruebas en la UI/UX.
 
 1. La API de pagos fue configurada en **modo sandbox**, permitiendo únicamente transacciones con tarjetas de prueba.
 2. Debido a limitaciones con mi cuenta de AWS, el **frontend** fue desplegado en **Netlify** y el **backend** en **Railway**.
+3. Datos para consumir el endpoint de transacciones:
 
----
+### Endpoint de Transacciones
 
-## Autor
+**URL:** `https://fullstack-test2024-production.up.railway.app/transactions`  
+**Método:** `POST`  
+**Headers:**
 
-- **Nombre**: Emmanuel Montoya López
-
----
-
-## Licencia
-
-Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+```json
+{
+  "Content-Type": "application/json"
+}
+{
+  "cardNumber": "4111111111111111",
+  "name": "John Doe",
+  "expiryDate": "12/26",
+  "cvv": 123,
+  "shippingAddress": "123 Main St, Springfield",
+  "productName": "Laptop",
+  "productPrice": 1000.00,
+  "baseFee": 50.00,
+  "shippingFee": 25.00,
+  "totalAmount": 1075.00,
+  "cardType": "Visa"
+}
+```
