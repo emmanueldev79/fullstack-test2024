@@ -65,7 +65,7 @@ export class ProcessTransactionUseCase {
     const newDelivery = this.deliveryRepository.create({
       transactionId: savedTransaction.id,
       address: savedTransaction.shippingAddress,
-      recipientName: createTransactionDto.name, // Personalizar según necesidad
+      recipientName: 'name', // Personalizar según necesidad
       deliveryDate: new Date().toISOString(),
       product: savedTransaction.productName,
       status: 'PENDING',
