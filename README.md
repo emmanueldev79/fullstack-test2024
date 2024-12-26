@@ -72,8 +72,6 @@ Por motivos de tiempo, no se realizaron pruebas en la UI/UX.
 ## Autor
 
 - **Nombre**: Emmanuel Montoya López
-- **LinkedIn**: [Conéctate conmigo](https://www.linkedin.com/in/emmanuel-montoya/)
-- **GitHub**: [Ver perfil](https://github.com/tu-usuario)
 
 ---
 
