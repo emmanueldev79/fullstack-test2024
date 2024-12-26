@@ -1,35 +1,34 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank">
+    <img src="https://nestjs.com/img/logo-small.svg" width="120" alt="NestJS Logo" />
+  </a>
 </p>
 
-<p align="center">
-  <strong>Prueba para Fullstack Developer</strong>
-</p>
+<h1 align="center">Prueba para Fullstack Developer</h1>
 
 ---
 
 ## Descripción del Proyecto
 
-Esta prueba técnica implementa una solución completa Fullstack con las siguientes tecnologías:
+Este proyecto consiste en una solución Fullstack desarrollada como parte de una prueba técnica. Combina un frontend moderno con un backend robusto para ofrecer funcionalidades completas, destacándose el uso de herramientas de última generación.
+
+### Tecnologías Utilizadas
 
 - **Frontend**: React, Redux, y CSS nativo.
 - **Backend**: NestJS, PostgreSQL, y TypeORM.
 
-### Despliegue:
+### Despliegue
 
-- El **Frontend** se desplegó en [Netlify](https://glistening-taiyaki-685840.netlify.app/).
-- El **Backend** y la base de datos se desplegaron en **Railway**.
+El proyecto está completamente desplegado en las siguientes plataformas:
 
-A continuación, puedes encontrar los enlaces relevantes para este proyecto:
-
-- [Frontend desplegado](https://glistening-taiyaki-685840.netlify.app/)
-- [Repositorio del Backend](https://github.com/tu-usuario/nombre-repositorio)
+- [Frontend en Netlify](https://glistening-taiyaki-685840.netlify.app/)
+- Backend y base de datos alojados en **Railway**.
 
 ---
 
 ## Resultados de las Pruebas Backend
 
-Se utilizaron pruebas automatizadas con Jest para garantizar la funcionalidad del backend. A continuación, se presentan los resultados:
+Para el backend, se realizaron pruebas automatizadas con **Jest** para verificar su correcto funcionamiento. Los resultados obtenidos son los siguientes:
 
 ### Servicios Probados
 
@@ -47,28 +46,34 @@ Se utilizaron pruebas automatizadas con Jest para garantizar la funcionalidad de
 
 - **process-transaction.usecase.spec.ts**: ❌ Falló.
 
-### Fallos Destacados:
+### Principales Problemas Identificados
 
-1. Problemas de formato en los valores esperados y recibidos.
-2. Falla al simular la creación de sesiones de pago debido a inconsistencias en los datos enviados.
-3. Error al manejar correctamente productos sin stock.
+1. **Errores de Formato**: Discrepancias entre los valores esperados y los recibidos.
+2. **Simulación de Sesiones de Pago**: Inconsistencias en los datos enviados durante las simulaciones.
+3. **Manejo de Productos sin Stock**: Fallos en la lógica para gestionar inventarios agotados.
 
-Se seguirá trabajando en estos casos para garantizar un 100% de cobertura y funcionalidad.
+Se continuará trabajando para resolver estos problemas y garantizar una cobertura completa de pruebas.
+
+---
+
+## Resultados de las Pruebas Frontend
+
+Por motivos de tiempo, no se realizaron pruebas en la UI/UX.
 
 ---
 
 ## Consideraciones
 
-1. La API de pagos fue utilizada en modo sandbox, lo que permitió realizar transacciones únicamente con tarjetas de prueba.
-2. Debido a inconvenientes con mi cuenta de AWS, decidí desplegar el frontend en **Netlify** y el backend en **Railway**.
+1. La API de pagos fue configurada en **modo sandbox**, permitiendo únicamente transacciones con tarjetas de prueba.
+2. Debido a limitaciones con mi cuenta de AWS, el **frontend** fue desplegado en **Netlify** y el **backend** en **Railway**.
 
 ---
 
 ## Autor
 
 - **Nombre**: Emmanuel Montoya López
-- **LinkedIn**: [Perfil](https://www.linkedin.com/in/emmanuel-montoya/)
-- **Website**: [NestJS](https://nestjs.com/)
+- **LinkedIn**: [Conéctate conmigo](https://www.linkedin.com/in/emmanuel-montoya/)
+- **GitHub**: [Ver perfil](https://github.com/tu-usuario)
 
 ---
 
