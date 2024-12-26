@@ -13,13 +13,13 @@ import { Delivery } from './deliveries/deliveries.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: 'database-1.c3m6s8m6qwul.us-east-2.rds.amazonaws.com',
       port: 5432,
       username: 'postgres',
-      password: '12345',
-      database: 'fullstack_test',
+      password: 'Emmanuel242006*',
+      database: 'database-1',
       entities: [ProductEntity, Transaction, Delivery], // Asegúrate de pasar la entidad correcta aquí
-      synchronize: true, // Esto hará que se sincronicen las entidades con la base de datos
+      // synchronize: true, // Esto hará que se sincronicen las entidades con la base de datos
     }),
     ProductsModule,
     TransactionsModule,
