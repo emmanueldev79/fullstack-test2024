@@ -17,10 +17,10 @@ Se realizo la prueba usando al 100% la documentacion, se hizo el frontend con re
 El frontend se desplego en netlify debido a inconenientes con mi cuenta de aws, por otro lado el backend y base de datos se desplegaron alli mismo. A continuacion dejo los links
 
 link frontend (https://glistening-taiyaki-685840.netlify.app/)
-<a href="https://glistening-taiyaki-685840.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/>Frontend</a>
+<a href="https://glistening-taiyaki-685840.netlify.app/" target="_blank">Frontend</a>
 
 link gitHub Backend (https://glistening-taiyaki-685840.netlify.app/)
-<a href="https://github.com/emmanueldev79/fullstack-test2024/" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/>Backend</a>
+<a href="https://github.com/emmanueldev79/fullstack-test2024/" target="_blank">Backend</a>
 
 ## Resultados pruebas backend con jest
 
