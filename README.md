@@ -223,7 +223,8 @@ Por motivos de tiempo, no se realizaron pruebas en la UI/UX.
 
 1. La API de pagos fue configurada en **modo sandbox**, permitiendo únicamente transacciones con tarjetas de prueba.
 2. Debido a limitaciones con mi cuenta de AWS, el **frontend** fue desplegado en **Netlify** y el **backend** en **Railway**.
-3. Datos para consumir el endpoint de transacciones:
+3. Las tarjetas deben de empezar en 4 o 5, visa o mastercard
+4. Datos para consumir el endpoint de transacciones:
 
 ### Endpoint de Transacciones
 
