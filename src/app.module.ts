@@ -19,7 +19,7 @@ import { Delivery } from './deliveries/deliveries.entity';
       password: 'MLbOvGLzNkWPrhDKaTuPvNBdqTYyxvXk',
       database: 'railway',
       entities: [ProductEntity, Transaction, Delivery], // Asegúrate de pasar la entidad correcta aquí
-      // synchronize: true, // Esto hará que se sincronicen las entidades con la base de datos
+      synchronize: true, // Esto hará que se sincronicen las entidades con la base de datos
     }),
     ProductsModule,
     TransactionsModule,
