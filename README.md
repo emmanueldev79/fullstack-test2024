@@ -22,6 +22,7 @@ Este proyecto consiste en una solución Fullstack desarrollada como parte de una
 El proyecto está completamente desplegado en las siguientes plataformas:
 
 - [Frontend en Netlify](https://glistening-taiyaki-685840.netlify.app/)
+- Codigo del frontend (https://github.com/emmanueldev79/frontendtest)
 - Backend y base de datos alojados en **Railway**.
 
 ---
